@@ -36,7 +36,7 @@ const About = ({ isDarkMode }) => {
         sx={{
           flex: 1,
           display: { xs: "none", md: "flex" },
-          justifyContent: "flex-start",
+          justifyContent: "center",
           borderRadius: "4px",
         }}
       >
