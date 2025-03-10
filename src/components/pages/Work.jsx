@@ -5,11 +5,26 @@ import barbie from "../../assets/img/barbie.png";
 import forYou from "../../assets/img/forYou.png";
 import prime from "../../assets/img/prime.png";
 import chatBot from "../../assets/img/chatBot.png";
+import icon from "../../assets/img/icon.png";
+import gs from "../../assets/img/gs.ico"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
 const projects = [
+  
+  {
+    title: "Landing Page de um médico",
+    description: "Landing Page para uma médico",
+    image: icon,
+    link: "https://vercel.com/sabrina-miyamotos-projects/dr.mauro"
+  },  
+  {
+    title: "Single Page Gs Cuidadores de Idosos",
+    description: "Um site single page para uma agência de cuidadores de Idosos.",
+    image: gs,
+    link: "https://www.gscuidadores.com.br/"
+  },
   {
     title: "Landing Page",
     description: "Uma landing page moderna e responsiva. Pensada nos fãs da Barbie.",

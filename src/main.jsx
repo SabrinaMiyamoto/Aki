@@ -15,13 +15,13 @@ const darkTheme = createTheme({
   typography: {
     fontFamily: 'Roboto, Arial, sans-serif',
     h1: {
-      color: '#E660AC',
+      color: '#ebc502',
     },
     h2: {
       color: '#ebc502',
     },
     h4: {
-      color: '#E660AC',
+      color: '#ebc502',
     },
     body1: {
       color: '#f1f1f1',
@@ -70,7 +70,7 @@ const lightTheme = createTheme({
       color: '#c7a802',
     },
     h4: {
-      color: '#E660AC',
+      color: '#ebc502',
     },
     body1: {
       color: '#1D1D1D',
