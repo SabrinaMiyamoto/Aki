@@ -12,9 +12,9 @@ const About = ({ isDarkMode }) => {
         px: 2,
         flexDirection: { xs: "column", md: "row" },
         boxSizing: "border-box",
+        mb: 4,
       }}
     >
-      {/* Texto à esquerda */}
       <Box sx={{ flex: 2, textAlign: { xs: "center", md: "left" }, justifyContent:'center' }}>
         <Typography variant="h2" gutterBottom>
           Bem-vindo à Aki
@@ -30,7 +30,6 @@ const About = ({ isDarkMode }) => {
         </Typography>
       </Box>
 
-      {/* Logo à direita */}
       <Box
         component="div"
         sx={{

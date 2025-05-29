@@ -10,8 +10,11 @@ const Header = ({ toggleTheme, isDarkMode }) => {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
+        borderRadius: '1rem',
         width: '100%',
         position: 'relative',
+        color: isDarkMode ? "#000" : "#fff",
+        backgroundColor: isDarkMode ? "#fff" : "#000",
       }}
     >
       <div className="nav-bar">

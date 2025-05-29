@@ -17,7 +17,7 @@ const projects = [
     title: "Landing Page de um médico",
     description: "Landing Page para uma médico",
     image: icon,
-    link: "https://vercel.com/sabrina-miyamotos-projects/dr.mauro"
+    link: "https://drmauro.vercel.app/"
   },  
   {
     title: "Single Page Gs Cuidadores de Idosos",
@@ -72,12 +72,11 @@ const Work = () => {
   };
 
   return (
-    <Box sx={{ p: 3 }} id='work'>
-      <Typography variant="h4" align="center" gutterBottom>
-        Meus Projetos
+    <Box sx={{ p: 3, md: 3 }} id='work'>
+      <Typography variant="h2" align="center"  gutterBottom>
+        Projetos
       </Typography>
 
-      {/* Carrossel para celulares */}
       <Box       sx={{ 
          display: { xs: "block", md: "none" }, 
          width: "100%", 
@@ -86,7 +85,6 @@ const Work = () => {
         <Slider {...carouselSettings}>
           {projects.map((project, index) => (
             <Box key={index} textAlign="center" sx={{ width: "100%" }}>
-              {/* Animação framer-motion no carrossel */}
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}

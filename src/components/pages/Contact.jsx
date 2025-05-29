@@ -27,7 +27,6 @@ const Contact = () => {
 
       <Grid container spacing={4} sx={{ width: '100%', maxWidth: '1200px', mt: 4 }}>
         <Grid item xs={12} md={6}>
-          {/* Formulário de Contato */}
           <Box
             sx={{
               border: '1px solid #ddd',
@@ -45,7 +44,10 @@ const Contact = () => {
               }}
             >
               <TextField label="Nome" name="name" variant="outlined" required fullWidth />
-              <TextField label="Telefone" name="phone" variant="outlined" required fullWidth />
+              <TextField label="Telefone" name="phone" variant="outlined" required fullWidth inputProps={{
+    inputMode: 'numeric',
+    pattern: '[0-9]*'
+  }}/>
               <TextField label="Email" name="email" type="email" variant="outlined" required fullWidth />
               <TextField label="Mensagem" name="message" variant="outlined" required multiline rows={4} fullWidth />
 
